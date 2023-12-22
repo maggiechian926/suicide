@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 from dash import dash_table
 
-df = pd.read_csv('/workspaces/suicide/dash_file/方式.csv')
+df = pd.read_csv('/workspaces/suicide/dash_file/list.csv')
 data=df.to_dict("records")
 
 #111111111111111111111111111111111111111111111111111111111111111111111以固體或液體物質自殺及自為中毒
