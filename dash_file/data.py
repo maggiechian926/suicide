@@ -2,7 +2,7 @@ import dash_core_components as dcc
 import plotly.graph_objs as go
 import pandas as pd
 import plotly.express as px
-import dash_table
+from dash import dash_table
 
 df = pd.read_csv('/workspaces/suicide/dash_file/方式.csv')
 data=df.to_dict("records")

@@ -1,10 +1,7 @@
-import dash_core_components as dcc
+from dash import dcc
 import dash_html_components as html
 import dash_bootstrap_components as dbc
-import plotly.graph_objs as go
-import plotly.express as px
-import pandas as pd
-from dash import Dash, html, dcc, callback, Output, Input,State,ctx
+from dash import Dash, html, dcc, callback,State,ctx
 from dash import callback_context
 from dash.dependencies import Input, Output
 from . import data as DA
